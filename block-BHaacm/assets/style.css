@@ -1,0 +1,217 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*start*/
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+body {
+    font-size: 16px;
+    font-family: sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.center {
+    align-items: center;
+}
+
+.flex-48 {
+    flex: 0 1 48%;
+}
+
+.flex-30 {
+    flex: 0 1 30%;
+}
+
+.flex-50 {
+    flex: 0 1 50%;
+}
+.grow {
+    flex-grow: initial;
+}
+
+.padding {
+    padding: 1rem;
+}
+
+header {
+    background-color: #222946;
+    width: 100%;
+}
+a {
+    text-decoration: none;
+}
+nav {
+    font-size: 1.4rem;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.active {
+    color: #329C61;
+}
+nav a {
+    color: #ffff;
+    margin-right: 1rem;
+    text-transform: uppercase;
+}
+.width-full {
+    width: 100%;
+}
+p{
+    color: #9A9BA1;
+}
+
+/*----artical---*/
+.article {
+    background-color: #E9ECFC;
+}
+
+h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin: 1rem 0;
+}
+.btn {
+    color: #ffff;
+    background-color: #329C61;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 0.75rem;
+    border-radius: 6px;
+    display: inline-block;
+    margin: 1rem 0;
+}
+img {
+    width: 100%;
+}
+
+/*gallary*/
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem 0;
+    font-weight: 500;
+}
+h3 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    line-height: 1.7;
+}
+.btn-2{
+    color: #ffff;
+    background-color: #329C61;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: 0.50rem;
+    border-radius: 6px;
+    display: inline-block;
+}
+
+footer {
+    background-color: #222946;
+    padding: 1.5rem;
+    color: #BCC0D2;
+    font-size: 1.4rem;
+}
+.fab {
+    margin-right: 1rem;
+    color: #E9ECFC;
+}
+
+@media screen and (max-width: 768px)
+{
+body {
+    background-color:#FFFFFF;
+}   
+.brand {
+    text-align: center;
+}
+.flex {
+    flex: 0 1 100%;
+    flex-wrap: wrap;
+}
+.flex-30 {
+    flex: 0 1 100%;
+}
+.flex-48 {
+    flex: 0 1 100%;
+}
+.order-1 {
+    order: 1;
+}
+.colum {
+    flex-direction: column;
+}
+.brand {
+    margin: 2rem 0;
+}
+nav {
+    margin: 2rem 0;
+}
+.fab {
+    margin: 1rem 0.4rem;
+    color: #E9ECFC;
+}
+
+}
