@@ -89,9 +89,6 @@ body {
 .grow {
     flex-grow: initial;
 }
-.colum {
-    flex-direction: column;
-}
 
 .padding {
     padding: 1rem;
@@ -179,6 +176,7 @@ footer {
 }
 .fab {
     margin-right: 1rem;
+    color: #E9ECFC;
 }
 
 @media screen and (max-width: 768px)
@@ -190,6 +188,7 @@ body {
     text-align: center;
 }
 .flex {
+    flex: 0 1 100%;
     flex-wrap: wrap;
 }
 .flex-30 {
@@ -198,7 +197,21 @@ body {
 .flex-48 {
     flex: 0 1 100%;
 }
-img{
-    width: 100%;
+.order-1 {
+    order: 1;
 }
+.colum {
+    flex-direction: column;
+}
+.brand {
+    margin: 2rem 0;
+}
+nav {
+    margin: 2rem 0;
+}
+.fab {
+    margin: 1rem 0.4rem;
+    color: #E9ECFC;
+}
+
 }
